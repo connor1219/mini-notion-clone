@@ -1,0 +1,18 @@
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 80px 40px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 24px;
+  color: var(--text-primary);
+}
+
+.blockList {
+  display: flex;
+  flex-direction: column;
+}

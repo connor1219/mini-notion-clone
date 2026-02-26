@@ -1,0 +1,134 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.urlRow {
+  display: flex;
+  gap: 8px;
+}
+
+.urlRow input {
+  flex: 1;
+}
+
+.loadButton {
+  padding: 6px 14px;
+  font-size: 13px;
+  border-radius: 4px;
+  background-color: var(--bg-hover);
+  color: var(--text-primary);
+  white-space: nowrap;
+  transition: background-color 0.1s;
+}
+
+.loadButton:hover {
+  background-color: var(--input-border);
+}
+
+.loadButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.dimensionRow {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.dimensionField {
+  flex: 1;
+}
+
+.dimensionField label {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  margin-bottom: 4px;
+}
+
+.dimensionField input {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 14px;
+  background-color: var(--input-bg);
+  border: 1px solid var(--input-border);
+  border-radius: 4px;
+  outline: none;
+  color: var(--text-primary);
+  transition: border-color 0.15s;
+}
+
+.dimensionField input:focus {
+  border-color: var(--input-focus-border);
+}
+
+.dimensionSeparator {
+  color: var(--text-muted);
+  font-size: 16px;
+  padding-bottom: 8px;
+}
+
+.error {
+  font-size: 13px;
+  color: var(--danger);
+  margin: 0;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.actionsSpacer {
+  flex: 1;
+}
+
+.deleteButton {
+  padding: 6px 14px;
+  font-size: 13px;
+  border-radius: 4px;
+  color: var(--danger);
+  transition: background-color 0.1s, color 0.1s;
+}
+
+.deleteButton:hover {
+  background-color: rgba(235, 87, 87, 0.15);
+  color: var(--danger-hover);
+}
+
+.cancelButton {
+  padding: 6px 14px;
+  font-size: 13px;
+  border-radius: 4px;
+  color: var(--text-secondary);
+  transition: background-color 0.1s, color 0.1s;
+}
+
+.cancelButton:hover {
+  background-color: var(--bg-hover);
+  color: var(--text-primary);
+}
+
+.confirmButton {
+  padding: 6px 14px;
+  font-size: 13px;
+  border-radius: 4px;
+  background-color: var(--accent);
+  color: var(--text-primary);
+  transition: opacity 0.1s;
+}
+
+.confirmButton:hover {
+  opacity: 0.9;
+}
+
+.confirmButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

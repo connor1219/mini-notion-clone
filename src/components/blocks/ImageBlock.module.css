@@ -1,0 +1,27 @@
+.imageBlock {
+  padding: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: outline-color 0.1s;
+  outline: 2px solid transparent;
+}
+
+.imageBlock:hover {
+  outline-color: var(--accent);
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+}
+
+.placeholder {
+  padding: 32px;
+  border: 1px dashed var(--border);
+  border-radius: 4px;
+  color: var(--text-muted);
+  font-size: 14px;
+  text-align: center;
+}

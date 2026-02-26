@@ -1,0 +1,20 @@
+[data-theme="dark"] {
+  --bg-primary: #191919;
+  --bg-secondary: #202020;
+  --bg-hover: #2f2f2f;
+  --bg-active: #37352f14;
+  --text-primary: #e0e0e0;
+  --text-secondary: #9b9b9b;
+  --text-muted: #5a5a5a;
+  --border: #2e2e2e;
+  --accent: #527a7a;
+  --icon-default: transparent;
+  --icon-hover: #9b9b9b;
+  --danger: #eb5757;
+  --danger-hover: #ff6b6b;
+  --input-bg: #2f2f2f;
+  --input-border: #404040;
+  --input-focus-border: #527a7a;
+  --scrollbar-thumb: #404040;
+  --scrollbar-track: transparent;
+}
