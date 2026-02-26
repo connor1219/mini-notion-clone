@@ -86,3 +86,4 @@ Open [http://localhost:3000](http://localhost:3000).
 - **Single process**: The file lock is in-memory; multiple server instances bypass it.
 - **No undo/redo** for block-level operations (delete, reorder, type change).
 - **No collaborative editing**: Single JSON file
+- **No tests**
